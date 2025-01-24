@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cfdddd;
+}
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+#usuario{
+    right: 30vw;
+    position: absolute;
+    height: 5vh;
+    width: 40vw;
+    border-radius: 2vw;
+    top: 20vh;
+}
+#password {
+    right: 30vw;
+    position: absolute;
+    height: 5vh;
+    width: 40vw;
+    border-radius: 2vw;
+    top:27vh;
+}
+
+#registrar{
+    right: 30vw;
+    position: absolute;
+    height: 5vh;
+    width: 40vw;
+    border-radius: 2vw;
+    background-color: #85cfad;
+    top: 37vh;
+}

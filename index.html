@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="./style/styles.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body >
+    <h1>Tablero kanban</h1>
+    <a id="inisesion" href="./login.html">Inicio de Sesion</a>
+    <a id="registrate" href="./registro.html">Registrate!</a>
+    <div class="container">
+        <div class="column1">
+            <h2>Pendientes</h2>
+        </div>
+        <div class="column2">
+            <h2>En progreso</h2>
+        </div>
+        <div class="column3">
+            <h2>Completadas</h2>
+        </div>
+    </div>
+    <input  id="crear" class="btnCrear" type="button" value="Crear Tareas">
+    <input class="btnEditar" type="button" value="Edición de Tareas">
+    <input class="btnEliminar" type="button" value="Eliminación de Tareas">
+    <div class="container2"  >
+        <label id="lTarea" for="text">Titulo de la tarea:</label>
+        <input type="text" id="titulo" placeholder="Ingrese un titulo" required>
+        <br><br>
+        <label for="desc">Descripción de la tarea:</label>
+        <br>
+        <textarea name="desc" id="desc" cols="35" rows="10" placeholder="Ingrese una descripción" required></textarea>
+        <br><br>
+        <label for="">Imagen relacionada con la tarea(opcional)</label>
+        <input type="file" name="img" id="imgT">
+        <br><br>
+        <label for="date">Fecha de Inicio:</label>
+        <input type="datetime-local" name="fechaFinal" id="fechaFinal" required/>
+        <br><br>
+        <label for="date">Fecha de Finalización:</label>
+        <input type="datetime-local" name="fechaFinal" id="fechaFinal" required/>
+        <br><br>
+        <label for="fechaFin">Asignación:</label>
+        <select name="bloque" id="bloque" required>
+            <option value="Pendientes">Pendientes</option>
+            <option value="en progreso">En progreso</option>
+            <option value="completadas">Completadas</option>
+        </select>
+        <br><br>
+        <input class="btnHecho" type="button" value="Hecho">
+
+    </div>
+
+</body>
+<script src="./js/app.js"></script>
+</html>
