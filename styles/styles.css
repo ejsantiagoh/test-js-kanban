@@ -68,10 +68,10 @@ h2{
 .container2 {
     height: 60vh;
     width: 100vw;
+    /* display: flex; */
     margin: 10px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     padding: 10px;
-    /* display: none; */
 }
 
 .btnHecho {

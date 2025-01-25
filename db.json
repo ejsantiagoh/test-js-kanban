@@ -1,37 +1,22 @@
 {
-  "tareas": {
-    "pendientes": [
-      {
-        "id": 1,
-        "titulo": "json",
-        "descripcion": "typicode",
-        "imagen": "",
-        "fechaInicio": "",
-        "fechaFinal": "",
-        "asignacion": "pendientes"
-      }
-    ],
-    "en progreso": [
-      {
-        "id": 1,
-        "titulo": "json-ser",
-        "descripcion": "dvsdg",
-        "imagen": "",
-        "fechaInicio": "",
-        "fechaFinal": "",
-        "asignacion": "en progreso"
-      }
-    ],
-    "completadas": [
-      {
-        "id": 1,
-        "titulo": "json-server",
-        "descripcion": "dsgsd",
-        "imagen": "",
-        "fechaInicio": "",
-        "fechaFinal": "",
-        "asignacion": "completadas"
-      }
-    ]
-  }
+  "tareas": [
+    {
+      "id": 1737846063789,
+      "titulo": "aaaa",
+      "descripcion": "aaaaa",
+      "imagen": "",
+      "fechaInicio": "2025-01-25T18:00",
+      "fechaFinal": "2025-01-26T18:00",
+      "asignacion": "Pendientes"
+    },
+    {
+      "id": 1737846090989,
+      "titulo": "eee",
+      "descripcion": "eeee",
+      "imagen": "",
+      "fechaInicio": "2025-01-26T18:01",
+      "fechaFinal": "2025-01-29T18:01",
+      "asignacion": "En progreso"
+    }
+  ]
 }
