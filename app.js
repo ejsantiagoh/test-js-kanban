@@ -1,6 +1,7 @@
 const btnCrear = document.querySelector(".btnCrear");
 
 document.getElementById("crear").addEventListener("click", function(){
+    const contenedor = document.querySelectorAll("container2");
     
 });
 
@@ -9,10 +10,10 @@ const crear = () => {
         const tareaTexto = inputTarea.value.trim();
 
         // Verificar si la tarea no está vacía
-        // if (tareaTexto === "") {
-        //   alert("Por favor, ingresa una tarea.");
-        //   return;
-        // }
+        if (tareaTexto === "") {
+          alert("Por favor, ingresa una tarea.");
+          return;
+        }
 
         // Crear el elemento de la tarea
         const tareaItem = document.createElement("li");
@@ -46,6 +47,16 @@ const crear = () => {
         // Limpiar el campo de texto después de agregar la tarea
         inputTarea.value = "";
       };
+      fetch("http://localhost:3000/post/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      })
+        .then((response) => response.json())
+        .then((data) => console.log("Success:", data))
+        .catch((error) => console.error("Error:", error));
 
 
 window.onload = cargarTareas;

@@ -1,35 +1,37 @@
 {
-  "pendientes": [
-    {
-      "id": 1,
-      "titulo": "json",
-      "descripcion": "typicode",
-      "imagen":"",
-      "fechaInicio":"",
-      "fechaFinal":"",
-      "asignacion":"pendientes"
-    }
-  ],
-  "en progreso": [
-    {
-      "id": 1,
-      "titulo": "json-ser",
-      "descripcion": "dvsdg",
-      "imagen": "",
-      "fechaInicio": "",
-      "fechaFinal": "",
-      "asignacion": "en progreso"
-    }
-  ],
-  "completadas": [
-    {
-      "id": 1,
-      "titulo": "json-server",
-      "descripcion": "dsgsd",
-      "imagen": "",
-      "fechaInicio": "",
-      "fechaFinal": "",
-      "asignacion": "completadas"
-    }
-  ]
+  "tareas": {
+    "pendientes": [
+      {
+        "id": 1,
+        "titulo": "json",
+        "descripcion": "typicode",
+        "imagen": "",
+        "fechaInicio": "",
+        "fechaFinal": "",
+        "asignacion": "pendientes"
+      }
+    ],
+    "en progreso": [
+      {
+        "id": 1,
+        "titulo": "json-ser",
+        "descripcion": "dvsdg",
+        "imagen": "",
+        "fechaInicio": "",
+        "fechaFinal": "",
+        "asignacion": "en progreso"
+      }
+    ],
+    "completadas": [
+      {
+        "id": 1,
+        "titulo": "json-server",
+        "descripcion": "dsgsd",
+        "imagen": "",
+        "fechaInicio": "",
+        "fechaFinal": "",
+        "asignacion": "completadas"
+      }
+    ]
+  }
 }
